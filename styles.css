@@ -1,0 +1,44 @@
+*{
+    background-color:antiquewhite;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.uu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+h1{
+    color:cornflowerblue;
+    position: relative;
+    top: 100px;
+    text-align:center;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.buttons{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+@media screen {
+    .buttons{
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+a{
+    color:darkslateblue;
+    text-decoration: initial;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position:relative;
+    top: 200px;
+
+}
+a:hover{
+    color: cadetblue;
+}
